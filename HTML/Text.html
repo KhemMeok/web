@@ -1,0 +1,148 @@
+<html lang="km">
+
+<head>
+    <title>Text_Element</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        b {
+            color: yellow;
+        }
+
+        center {
+            background-color: violet;
+            border-radius: 5px;
+        }
+
+        div {
+            color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <h1>element</h1>
+    <p>syntax and <br> description</p>
+    <li>
+        <a href="../index.html">go to Home page</a>
+    </li>
+    <img src="/img/download.jpg" alt="my pic" width="100" height="200">
+
+
+    <center style="background-color: goldenrod;">
+        <b>enclose_text_as_bold</b> <br>
+        <strong>Important text</strong> <br>
+        <i> Italic text </i> <br>
+        <em>Emphasized text</em> <br>
+        <mark>Marked text</mark> <br>
+        <small>smaller text</small> <br>
+        <del>deleted text</del> <br>
+        <ins>insert text</ins> <br>
+        <sub>subscript text</sub> <br>
+        <sup>superscript text</sup> <br>
+    </center>
+
+    <p style="color: red;" title="i'm title">style
+
+
+
+        att</p>
+    <hr style="color: yellow;">
+
+    <pre style="font-family: AKbalthom HighSchool serif; font-size: 30px; text-align: end;">
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.My Bonnie lies over the ocean.
+        
+
+        Oh, bring back my Bonnie to me.
+      </pre>
+
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+    </blockquote>
+    <h1 style="border: 2px solid red;">border_color</h1>
+
+    <h1 style="border: 2px solid darkgoldenrod;">border_color</h1>
+
+
+    <!--
+        Color Values
+In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.
+The following three <div> elements have their background color set with RGB, HEX, and HSL values:
+      -->
+
+    <h1 style="background-color: rgb(255,99,71);">..</h1>
+    <h1 style="background-color: #ff6347;">...</h1>
+    <h1 style="background-color: hsl(9,100%,64%);">...</h1>
+    <h1 style="background-color: rgba(255,99,71,0.5);">...</h1>
+    <h1 style="background-color: hsla(9, 100%, 64%, 0.5);">...</h1>
+
+
+    <!--
+        using css 
+        we can add css to html documents in 3 ways:
+        -inline   : by using the style attribute inside HTML element
+        -internal : by using a <style> element in the <head> section
+        -external : by using a <link> element to link to an external css file. -->
+    <div style="color: yellow">Div element </div>
+    <div>Div element </div>
+
+    <!--HTML <a> tag defines a hyperlink. It has the following
+         syntax:
+                <a href="url">link text</a> 
+                The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+    -->
+    <ul>
+
+
+        <li><a href="../index.html" target="_blank">go to Home Page</a> </li><br>
+        <li><a href="../index.htmla" target="_blank">go to Home Page</a></li> <br>
+        <li> <a href="../index.htmla" target="_self">go to Home Page</a></li> <br>
+        <li> <a href="../index.htmla" target="_parent">go to Home Page</a></li> <br>
+        <li> <a href="../index.htmla" target="_top">go to Home Page</a></li>
+
+    </ul>
+
+    <!--
+        Absolute URLs vs Relative URLs
+
+    -->
+    <h3>Absolute URLs</h3>
+    <p><a href="http://google.com/">go to google.com</a> </p>
+    <p> <a
+            href="https://www.google.com/search?q=translate&oq=tr&aqs=chrome.2.69i57j35i39j0i67i131i433j0i67l2j69i60l3.2037j0j7&sourceid=chrome&ie=UTF-8">go to google translate</a>
+    </p>
+    <h3>Relative URLs</h3>
+    <p><a href="/img/download.jpg">pic</a></p>
+    <p><a href="../index.html">My HOME Page</a></p>
+
+    <h3>Image as link</h3>
+    <a href="http://google.com/"><img src="../img/download.jpg" alt="toch it"></a>
+
+
+    <p>
+    HighSchool
+    </p>
+    <br>
+    
+
+</body>
+
+</html>
