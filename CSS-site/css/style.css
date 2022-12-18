@@ -1,0 +1,80 @@
+.body {
+   
+    margin: 0;
+    text-align: center;
+}
+
+
+.top-container {
+    background-color: rgb(62, 59, 68);
+    position: relative;
+    padding-top: 100px;
+     
+    
+     
+    
+}
+h1{
+    margin-top: 0;
+    width: 10%;
+    margin: 0 auto 0 auto;
+    font-family: 'Pacifico', cursive;  
+   
+}
+ 
+ 
+p{
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+.middle-container {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    
+
+
+}
+
+.bottom-container {
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+     
+  
+
+}
+.from_login{
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    
+
+}
+.button{
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    background-color: cyan;
+}
+.topcloud{
+ position: absolute;
+left: 50px;
+ width: 200px;
+ height: 100px;
+ 
+ 
+}
+.buttomcloud{
+    position: absolute;
+  top: 120px;
+  right: 16px;
+   width: 200px;
+   height: 100px; 
+}
+montian{
+    width: 100%;
+    height: auto;
+}

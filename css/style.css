@@ -6,3 +6,44 @@ div{
     padding: 30px;
     margin: 10px;
 }
+img {
+    border-radius: 50%;
+  }
+  body{
+      background-color: wheat;
+      color: black;
+      text-emphasis-color: red;
+      
+  }
+  #h{
+      /* background-color: yellow; */
+      size: "10";
+      border-style: none;
+      border-top-style: dotted;
+      border-color: green;
+      border-width: 5px;
+      
+  
+  }
+  #p{
+      font-size: 17px;
+  }
+  label{
+    padding: 10;
+
+  }
+  input{
+    border-radius: 5px;
+    background-color: rosybrown;
+  }
+  textarea{
+    border-radius: 5px;
+  }
+  #input_sub:hover{
+    background-color: rebeccapurple;
+    color: white;
+
+  }
+  .tarea{
+    background-color: bisque;
+  }
